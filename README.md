@@ -66,3 +66,109 @@ CSS
 
 ![Screenshot 2023-08-22 113010](https://github.com/rupesh0511/photo_gallery/assets/69234169/d62ad22f-3c93-4b36-84a8-2de5872a3460)
 ![Screenshot 2023-08-22 113022](https://github.com/rupesh0511/photo_gallery/assets/69234169/e8225c9e-ec1d-45fd-a734-2e8c0fb367a6)
+
+' * { box-sizing: border-box; }': This rule sets the box-sizing property for all elements on the page to "border-box," which ensures that an element's padding and border are included in its total width and height.
+
+
+
+' body { margin: 0; font-family: sans-serif; background: #f5f6f7; }': This rule styles the body element, setting the following properties:
+
+
+
+'margin: 0;': Removes any default margin from the body.
+
+
+'font-family: sans-serif;': Sets the font family for text content to a generic sans-serif font.
+
+
+'background: #f5f6f7;': Sets the background color of the body to a light grayish-blue.
+
+
+' .header { text-align: center; text-transform: uppercase; padding: 32px; background-color: #0a0a23; color: #fff; border-bottom: 4px solid #fdb347; }':
+
+This rule styles an element with the class "header," commonly used for headers at the top of web pages. It includes:
+
+
+
+'text-align: center;': Centers the text within the header.
+
+
+'text-transform: uppercase;': Converts the text to uppercase.
+
+
+'padding: 32px;': Adds 32 pixels of padding to the header, providing space around its content.
+
+
+'background-color: #0a0a23;': Sets the background color to a dark blue.
+
+
+'color: #fff;': Sets the text color to white.
+
+
+'border-bottom: 4px solid #fdb347;': Adds a 4-pixel solid border at the bottom of the header with a light orange color.
+
+
+' .gallery { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; gap: 16px; max-width: 1400px; margin: 0 auto; padding: 20px 10px; }':
+
+This rule styles a container with the class "gallery," likely used for displaying images in a gallery format. It includes:
+
+
+
+'display: flex;': Makes the container a flex container.
+
+
+'flex-direction: row;': Sets the direction of flex items to be in a row.
+
+
+'flex-wrap: wrap;': Allows flex items to wrap to the next row when there's not enough horizontal space.
+
+
+'justify-content: center;': Centers the flex items horizontally within the container.
+
+
+'align-items: center;': Centers the flex items vertically within the container.
+
+
+'gap: 16px;': Adds 16 pixels of space between flex items.
+
+
+'max-width: 1400px;': Sets the maximum width of the container to 1400 pixels.
+
+
+'margin: 0 auto;': Centers the container horizontally on the page.
+
+
+'padding: 20px 10px;'
+
+: Adds 20 pixels of padding on the top and bottom and 10 pixels on the left and right of the container.
+
+
+' .gallery img { width: 100%; max-width: 350px; height: 300px; object-fit: cover; border-radius: 10px; }': This rule styles the images within the gallery. It includes:
+
+
+
+'width: 100%;': Makes the image take up 100% of its container's width.
+
+
+'max-width: 350px;': Sets a maximum width of 350 pixels for the image.
+
+
+'height: 300px;': Sets a fixed height of 300 pixels for the image.
+
+
+'object-fit: cover;': Scales and crops the image to cover the entire container, maintaining its aspect ratio.
+
+
+'border-radius: 10px;': Adds rounded corners with a 10-pixel radius to the image.
+
+
+' .gallery::after { content: ""; width: 350px; }': This rule generates an empty content pseudo-element after the gallery container. It includes:
+
+
+
+'content: "";': Adds an empty content area.
+
+
+'width: 350px;': Sets the width of this empty content area to 350 pixels, providing additional spacing after the gallery.
+
+
