@@ -37,10 +37,10 @@ HTML
 
 
 
-'h1'css flexbox photo gallery'/h1': An <h1> (header 1) tag is used to define the main heading of the page. In this case, it is "css flexbox photo gallery."
+'h1'css flexbox photo gallery'/h1': An h1 (header 1) tag is used to define the main heading of the page. In this case, it is "css flexbox photo gallery."
 
 
-'div class="gallery"': This <div> element with the class "gallery" is used to create a container for a photo gallery.
+'div class="gallery"': This div element with the class "gallery" is used to create a container for a photo gallery.
 
 
 
