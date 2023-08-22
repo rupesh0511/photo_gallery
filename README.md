@@ -1,5 +1,5 @@
 # photo_gallery
-hosted link-
+hosted link- https://rupesh0511.github.io/photo_gallery/
 
 HTML
 
